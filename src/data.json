@@ -1,0 +1,112 @@
+{
+  "forRowOneData": [
+    {
+      "heading": "Featured Listed Property",
+      "para": "Real estate can be bought, sold, leased, or rented, and can be a valuable investment opportunity. The value of real estate can be..."
+    }
+  ],
+
+  "forNavData": ["New York", "Mumbai", "Paris", "London"],
+
+  "cardData": [
+    {
+      "id": 1,
+      "cardImg": "./img/carimg1.jpeg",
+      "cardTitle": "1_Toyota RAV4",
+      "price": "7,277",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Hybrid",
+      "iconName3": "7.7km/1-litre",
+      "iconName4": "Automatic"
+    },
+    {
+      "id": 2,
+      "cardImg": "./img/carimg2.jpeg",
+      "cardTitle": "2_BMW 3 Series",
+      "price": "4,244",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Gasoline",
+      "iconName3": "7.6km/1-litre",
+      "iconName4": "Automatic"
+    },
+    {
+      "id": 3,
+      "cardImg": "./img/carimg3.jpeg",
+      "cardTitle": "3_Volkswagen T-Cross",
+      "price": "3,233",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Gasoline",
+      "iconName3": "7.6km/1-litre",
+      "iconName4": "Automatic"
+    },
+    {
+      "id": 4,
+      "cardImg": "./img/carimg4.jpeg",
+      "cardTitle": "4_Cadillac Escalade",
+      "price": "9,299",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Gasoline",
+      "iconName3": "7.6km/1-litre",
+      "iconName4": "Automatic"
+    },
+    {
+      "id": 5,
+      "cardImg": "./img/carimg5.jpeg",
+      "cardTitle": "BMW 4 Series GTI",
+      "price": "1,211",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Gasoline",
+      "iconName3": "7.6km/1-litre",
+      "iconName4": "Automatic"
+    },
+    {
+      "id": 6,
+      "cardImg": "./img/carimg6.jpeg",
+      "cardTitle": "BMW 4 Series",
+      "price": "8,288",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Gasoline",
+      "iconName3": "7.6km/1-litre",
+      "iconName4": "Automatic"
+    },
+    {
+      "id": 7,
+      "cardImg": "./img/carimg7.jpeg",
+      "cardTitle": "7_BMW 4 Series",
+      "price": "6,266",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Gasoline",
+      "iconName3": "7.6km/1-litre",
+      "iconName4": "Automatic"
+    },
+    {
+      "id": 8,
+      "cardImg": "./img/carimg8.jpeg",
+      "cardTitle": "8_BMW 4 Series",
+      "price": "4,244",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Gasoline",
+      "iconName3": "7.6km/1-litre",
+      "iconName4": "Automatic"
+    },
+    {
+      "id": 9,
+      "cardImg": "./img/carimg9.jpeg",
+      "cardTitle": "9_BMW 4 Series",
+      "price": "3,233",
+      "year": "2021",
+      "iconName1": "4 People",
+      "iconName2": "Gasoline",
+      "iconName3": "7.6km/1-litre",
+      "iconName4": "Automatic"
+    }
+  ]
+}

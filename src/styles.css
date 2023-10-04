@@ -1,0 +1,256 @@
+:root {
+  --forBackColor: #f4f4fd;
+  --forActiveBTNColor: #3739e4;
+  --forBTNColor: #ebebfb;
+  --forHeadingColor: #273654;
+  --forParaColor: #9d9da0;
+  --forRentDivBTNColor: #fefefe;
+  --forRentDivBTNFontColor: #4b4de5;
+  /* ------------------------------------------ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.5s;
+  color: var(--forHeadColor);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  background-color: var(--forBackColor);
+  /* border: 1px solid red; */
+  width: 90vw;
+  max-width: 950px;
+  /* height: auto; */
+}
+
+.container .row {
+  /* border: 1px solid blue; */
+  margin: 0 auto;
+  height: fit-content;
+}
+
+.container > .row:first-child {
+  height: 60px;
+  padding: 15px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px #888888;
+}
+
+.containerRow3 {
+  height: 50px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerRow3 .btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 40px;
+  color: var(--forHeadColor);
+}
+
+.col {
+  height: fit-content;
+}
+
+.containerRow1 .col:nth-child(1),
+.containerRow1 .col:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.containerRow1 .col:nth-child(1) form {
+  width: 300px;
+
+  font-size: 80%;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerRow1 .col:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------card-------------- */
+
+.containerRow2 .col {
+  padding-top: 3%;
+}
+
+.containerRow2 .col .card {
+  width: 100%;
+  min-width: 250px;
+  max-width: 300px;
+  height: 400px;
+  position: relative;
+  border-radius: 5px;
+  /* border: 1px solid red; */
+}
+
+.card-img-top {
+  border-radius: 10px;
+  height: 165px;
+}
+
+.yearBTN {
+  width: 50px;
+  height: 25px;
+  border-radius: 40px;
+  font-size: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  background-color: var(--forRentDivBTNColor);
+  color: var(--forRentDivBTNFontColor);
+  position: absolute;
+  right: 10px;
+  bottom: 193px;
+}
+
+.heartIconDiv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--forRentDivBTNColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 100px;
+  bottom: 30px;
+}
+
+.heartIconDiv svg {
+  color: var(--forActiveBTNColor);
+}
+
+.fourDotDiv {
+  width: 50px;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 150px;
+  left: 125px;
+}
+
+.fourDotDiv div {
+  width: 13px;
+  height: 5px;
+  /* border-radius: 50%; */
+  background-color: var(--forRentDivBTNColor);
+}
+
+.fourDotDiv .active {
+  background-color: var(--forActiveBTNColor);
+}
+
+.card-title {
+  font-size: 100%;
+  width: 100%;
+}
+
+.fourIconsDiv {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.fourIconsDivFirst {
+  /* border: 1px solid blue; */
+  width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.fourIconsDivSecond {
+  /* border: 1px solid blue; */
+  width: 45%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fourIconsDiv svg {
+  margin-right: 10px;
+}
+
+.firstIcon,
+.secIcon,
+.thirdIcon,
+.fourthIcon {
+  width: 100%;
+  height: 100%;
+  font-size: 75%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* border: 1px solid red; */
+}
+
+.lastDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -15px;
+  font-size: 70%;
+}
+.lastDivFirst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastDivFirst .span2 {
+  color: var(--forActiveBTNColor);
+}
+
+.lastDivFirst .span1 {
+  color: var(--forActiveBTNColor);
+}
+
+.lastDivSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastDivSec .btn {
+  width: 75px;
+  height: 30px;
+  border-radius: 40px;
+  font-size: 80%;
+  font-weight: 700;
+  background-color: var(--forBackColor);
+  color: var(--forRentDivBTNFontColor);
+}
